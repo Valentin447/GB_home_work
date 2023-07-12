@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.header__logo {
+  margin-top: 40px;
+}
+
+.menu {
+  margin-top: 51px;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu__home {
+  color: #F25822;
+}
+
+.features {
+  background: none;
+  border: none;
+}
+
+.top__content {
+  padding: 84px 0 162px;
+}
+
+.title {
+  margin-bottom: 17px;
+}
+
+.top__buttons {
+  margin-top: 37px;
+}
+
+.top__logos {
+  padding: 97px 0;
+}
