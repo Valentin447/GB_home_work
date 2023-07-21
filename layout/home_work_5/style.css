@@ -1,0 +1,106 @@
+@import url(fonts/font.css);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-top: 40px;
+}
+
+.menu {
+  margin-top: 51px;
+  display: flex;
+  width: 533px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item {
+  text-decoration: none;
+  color: black;
+  font-family: Gilroy;
+  font-size: 1rem;
+}
+
+.menu__home {
+  color: #F25822;
+}
+
+.features {
+  background: none;
+  border: none;
+}
+
+.top__content {
+  padding: 84px 0 162px;
+
+}
+
+.top__container {
+  display: flex;
+  justify-content: start;
+}
+
+.top__info {
+  max-width: 522px;
+  margin-right: 39px;
+}
+
+.top__title {
+  margin-bottom: 17px;
+  font-size: 60px;
+  font-family: Gilroy;
+  font-weight: bold;
+}
+
+.top__text {
+  font-size: 20px;
+  font-family: Gilroy;
+  font-weight: medium;
+  color: #888;
+}
+
+.top__buttons {
+  margin-top: 37px;
+}
+
+.top__button-start,
+.top__button-watch {
+  border: none;
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px 30px;
+}
+
+.top__button-start {
+  border-radius: 23px;
+  background-color: #F25822;
+  color: #FFF;
+}
+
+.top__button-watch {
+  color: #AAA;
+  background: none;
+}
+
+.top__logos {
+  padding: 97px 0;
+}
+
+.top-logos__container {
+  display: flex;
+  justify-content: space-between;
+}
