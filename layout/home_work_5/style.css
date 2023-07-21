@@ -104,3 +104,127 @@
   display: flex;
   justify-content: space-between;
 }
+
+.features{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.features__item{
+  max-width: 310px;
+}
+.features__item-center{
+  padding: 40px 30px 25px;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.features__img{
+  margin-bottom: 25px;
+}
+
+.features__heading{
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+
+.features__text{
+  font-family: Gilroy;
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+.features__link{
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+  color: #000;
+}
+
+.why-us{
+  background: #FAFAFA;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 92px 0 100px;
+}
+
+.services__main-heading{
+  font-family: Gilroy;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+.services__main-text{
+  color: #666;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  width: 700px;
+  margin-bottom: 54px;
+}
+
+.services__list{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+
+.services__item{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__item-center{
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.services__heading{
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 25px 0 22px;
+}
+
+.services__text{
+  color: #AAA;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 150%; /* 22.5px */
+  margin: 0 30px 39px;
+}
+
+.services__button{
+  color: #FFF;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 150%; /* 19.5px */
+  background-color: #F25822;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.services__button-arrow{
+  margin-left: 6px;
+}
