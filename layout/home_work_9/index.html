@@ -10,62 +10,69 @@
 </head>
 
 <body>
+
   <header class="header">
     <div class="header__container container">
       <div class="header__left">
         <a href="index.html"><img class="header__logo" src="images/logo.png"
             alt="Logo"></a>
-        <img class="header__search" src="images/icons/search.png" alt="Search">
+        <button class="header__search" type="button"><img
+            src="images/icons/search.png" alt="Search"></button>
       </div>
       <div class="header__right">
-        <img class="header__burger" src="images/icons/burger.png" alt="Burger">
-        <a href="#"><img class="header__user" src="images/icons/user.png"
+        <button class="header__burger" type="button"><img
+            src="images/icons/burger.png" alt="Burger"></button>
+        <a class="header__user" href="#"><img src="images/icons/user.png"
             alt="User"></a>
         <a class="header__cart" href="#"><img class="header__cart-icon"
             src="images/icons/cart.png" alt="Cart"></a>
       </div>
     </div>
   </header>
+
   <section class="brand">
     <div class="brand__left">
       <img class="brand__foto" src="images/layer.png" alt="Foto">
     </div>
     <div class="brand__right">
-      <h1 class="brand__heading">
-        <span class="brand__brand">the&nbsp;brand</span><br>
-        of&nbsp;luxerious&nbsp;<span class="brand__fashion">fashion</span>
-      </h1>
+      <div class="brand__heading-wrap">
+        <h1 class="brand__heading-top">the&nbsp;brand</h1>
+        <p class="brand__heading-bottom">of&nbsp;luxerious&nbsp;<span
+            class="brand__fashion">fashion</span></p>
+      </div>
     </div>
   </section>
+
   <div class="container">
     <div class="offer">
-      <section class="offer__women">
+      <article class="offer__women">
         <img class="offer__women-img" src="images/background/women1.jpg"
           alt="women">
         <h3 class="offer__women-text">30% off<br><strong>for women</strong></h3>
-      </section>
-      <section class="offer__men">
+      </article>
+      <article class="offer__men">
         <img class="offer__men-img" src="images/background/men1.jpg" alt="men">
         <h3 class="offer__men-text">hot deal<br><strong>for men</strong></h3>
-      </section>
-      <section class="offer__kids">
+      </article>
+      <article class="offer__kids">
         <img class="offer__kids-img" src="images/background/kids1.jpg"
           alt="kids">
         <h3 class="offer__kids-text">new arrivals<br><strong>for kids</strong>
         </h3>
-      </section>
-      <section class="offer__accesories">
+      </article>
+      <article class="offer__accesories">
         <h3>luxirous & trendy<br><strong>accesories</strong></h3>
-      </section>
+      </article>
     </div>
   </div>
   <div class="container">
-    <main class="featured-items">
+
+    <section class="featured-items">
       <h2 class="featured-items__head">Fetured Items</h2>
       <p class="featured-items__description">Shop for items based on what we
         featured in this week</p>
-      <ul class="featured-items__cards">
-        <li class="featured-items__product-card">
+      <div class="featured-items__cards">
+        <article class="featured-items__product-card">
           <figure>
             <div class="featured-items__top">
               <img class="featured-items__product-img"
@@ -86,8 +93,8 @@
               <span class="featured-items__info-price">$52.00</span>
             </figcaption>
           </figure>
-        </li>
-        <li class="featured-items__product-card">
+        </article>
+        <article class="featured-items__product-card">
           <figure>
             <div class="featured-items__top">
               <img class="featured-items__product-img"
@@ -108,8 +115,8 @@
               <span class="featured-items__info-price">$52.00</span>
             </figcaption>
           </figure>
-        </li>
-        <li class="featured-items__product-card">
+        </article>
+        <article class="featured-items__product-card">
           <figure>
             <div class="featured-items__top">
               <img class="featured-items__product-img"
@@ -130,8 +137,8 @@
               <span class="featured-items__info-price">$52.00</span>
             </figcaption>
           </figure>
-        </li>
-        <li class="featured-items__product-card">
+        </article>
+        <article class="featured-items__product-card">
           <figure>
             <div class="featured-items__top">
               <img class="featured-items__product-img"
@@ -152,8 +159,8 @@
               <span class="featured-items__info-price">$52.00</span>
             </figcaption>
           </figure>
-        </li>
-        <li class="featured-items__product-card">
+        </article>
+        <article class="featured-items__product-card">
           <figure>
             <div class="featured-items__top">
               <img class="featured-items__product-img"
@@ -174,8 +181,8 @@
               <span class="featured-items__info-price">$52.00</span>
             </figcaption>
           </figure>
-        </li>
-        <li class="featured-items__product-card">
+        </article>
+        <article class="featured-items__product-card">
           <figure>
             <div class="featured-items__top">
               <img class="featured-items__product-img"
@@ -196,10 +203,11 @@
               <span class="featured-items__info-price">$52.00</span>
             </figcaption>
           </figure>
-        </li>
-      </ul>
-      <button class="featured-items__button">Browse All Product</button>
-    </main>
+        </article>
+        </ul>
+        <button class="featured-items__button">Browse All Product</button>
+    </section>
+
   </div>
 </body>
 
