@@ -50,6 +50,12 @@
   border: none;
   cursor: pointer;
 }
+.header__icon-svg path{
+  transition: fill 0.3s;
+}
+.header__icon-svg:hover path{
+  fill:#F16D7F;
+}
 
 .header__right {
   width: 169px;
@@ -251,6 +257,7 @@ figure {
   justify-content: center;
   align-items: center;
   opacity: 0;
+  transition: opacity .4s;
 }
 
 .featured-items__cart:hover {
@@ -275,6 +282,7 @@ figure {
   font-size: 14px;
   line-height: 17px;
   cursor: pointer;
+  transition: background-color .3s;
 }
 
 .featured-items__cart-button:hover {
@@ -335,6 +343,7 @@ figure {
   line-height: 19px;
   margin: 0 auto;
   cursor: pointer;
+  transition: all .3s;
 }
 
 .featured-items__button:hover {
@@ -492,10 +501,15 @@ figure {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: #FFF;
   cursor: pointer;
+  transition: all .3s;
 }
 
+.footer__form-submit:hover{
+  background-color: #FFF;
+  color: #F16D7F;
+}
 .footer__bottem {
   background-color: #222224;
 }
@@ -525,7 +539,7 @@ figure {
   display: flex;
 }
 
-.footer__social-networks a {
+.footer__social-networks-link {
   background-color: #fff;
   color: #000;
   width: 32px;
@@ -535,18 +549,13 @@ figure {
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  transition: all .3s;
 }
 
-.footer__social-networks a:hover {
+.footer__social-networks-link:hover {
   color: #fff;
   background-color: #F16D7F;
 }
-
-/* ============= */
-
-
-/* =============== */
-
 
 
 @media (max-width: 1200px) {
